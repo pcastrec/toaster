@@ -1,0 +1,60 @@
+.toast {
+    border-bottom-color: rgb(48, 55, 66);
+    border-right-color: rgb(48, 55, 66);
+    border-left-color: rgb(48, 55, 66);
+    border-top-color: rgb(48, 55, 66);
+    background: rgba(48, 55, 66, .95);
+    border: .05rem solid #303742;
+    border-color: #303742;
+    border-radius: .1rem;
+    position: absolute;
+    min-width: 15em;
+    display: block;
+    padding: .4rem;
+    color: #fff;
+}
+
+.toast.center {
+    right: 50%;
+    transform: translateX(50%);
+}
+
+.toast.middle {
+    top: 50%;
+    transform: translateY(50%);
+}
+
+.toast.center.middle {
+    transform: translate(50%, -50%);
+}
+
+.toast.bottom {
+    bottom: 10;
+}
+
+.toast.top {
+    top: 10;
+}
+
+.toast.right {
+    right: 10;
+}
+
+.toast.left {
+    left: 10;
+}
+
+.toast.success {
+    background: rgba(50, 182, 67, .95);
+    border-color: #32b643;
+}
+
+.toast.warning {
+    background: rgba(255, 183, 0, .95);
+    border-color: #ffb700;
+}
+
+.toast.error {
+    background: rgba(232, 86, 0, .95);
+    border-color: #e85600;
+}
